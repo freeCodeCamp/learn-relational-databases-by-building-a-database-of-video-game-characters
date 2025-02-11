@@ -48,3 +48,7 @@ Whenever a new version is created, add the new branch name and the changes here
 ## [v2.0.0]
 
 - Add Gitpod config
+
+## [v3.0.0]
+
+- Rename project title and move to new repo. See former repo for history: https://github.com/freeCodeCamp/learn-relational-databases-by-building-a-mario-database

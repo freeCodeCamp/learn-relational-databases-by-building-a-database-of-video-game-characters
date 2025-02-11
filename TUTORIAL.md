@@ -1,4 +1,4 @@
-# Learn Relational Databases by Building a Mario Database
+# Learn Relational Databases by Building a Database of Video Game Characters
 
 > Welcome to the Relational Database Lessons!
 
