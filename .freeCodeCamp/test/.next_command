@@ -44,3 +44,4 @@ psql --username-freecodecamp --dbname-postgres
 psql -freecodecamp -postgres
 psql -freecodecamp -postgres
 psql --username=freecodecamp --dbname=postgres
+psql --username=freecodecamp --dbname=postgres
