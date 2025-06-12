@@ -44,3 +44,9 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ech hello PostgresSQL
 echo hello PostgreSQL
 psql --username=freecodecamp --dbname=postgres
+CREATE DATABASE first_database
+CREATE DATABASE first_database
+CREATE DATABASE first_database:
+CREATE DATABASE first_database
+CREATE DATABASE first_database
+psql --username=freecodecamp --dbname=postgres
