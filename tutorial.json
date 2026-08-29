@@ -3303,7 +3303,7 @@
               "02faad5793c3f2c5e2a03efef28f70c802025e73"
             ]
           },
-          "content": "You want to use `character_id` as a foreign key again. This will be a \"one-to-many\" relationship because **one** character will have **many** sounds, but no sound will have more than one character. Here's the example again:\n\n```sql\nALTER TABLE table_name ADD COLUMN column_name DATATYPE CONSTRAINT REFERENCES referenced_table_name(referenced_column_name);\n```\n\nAdd a column to `sounds` named `character_id`. Give it the properties `INT`, `NOT NULL`, and set it as a foreign key that references `character_id` from `characters`.",
+          "content": "You want to use `character_id` as a foreign key again. This will be a \"one-to-many\" relationship because **one** character will have **many** sounds, but no sound will have more than one character. Here's the example again:\n\n```sql\nALTER TABLE table_name ADD COLUMN column_name DATATYPE REFERENCES referenced_table_name(referenced_column_name);\n```\n\nAdd a column to `sounds` named `character_id`. Give it the properties `INT`, `NOT NULL`, and set it as a foreign key that references `character_id` from `characters`.",
           "hints": [
             "You can do this!",
             "Give it one more try, take a close look at all those values and keywords",
